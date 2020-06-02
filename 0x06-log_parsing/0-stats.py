@@ -36,5 +36,6 @@ for line in sys.stdin:
     if counter == 10:
         print("File size: {:d}".format(total_size))
         for code, value in sorted(code_status.items()):
-            print("{:s}: {:d}".format(code, value))
+            if value > 0:
+                print("{:s}: {:d}".format(code, value))
         counter = 0
