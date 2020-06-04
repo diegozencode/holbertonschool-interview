@@ -4,8 +4,7 @@
 """
 
 
-import sys, signal
-signal.signal(signal.SIGINT, signal.default_int_handler)
+import sys
 
 
 def addFileSize(data):
