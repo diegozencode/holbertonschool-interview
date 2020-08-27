@@ -4,3 +4,5 @@
 *.[oa]
 # Ignore executables
 [abcdefghijk]
+#Byte-compiled
+__pycache__/
