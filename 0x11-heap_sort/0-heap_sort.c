@@ -42,6 +42,9 @@ void build_max_heap(int *array, size_t size, size_t index, size_t lenght)
  */
 void heap_sort(int *array, size_t size)
 {
+	int i = 0;
+	size_t j = 0;
+
 	if (array == NULL || size == 0)
 	{
 		return;
@@ -52,14 +55,10 @@ void heap_sort(int *array, size_t size)
 		print_array(array, size);
 	}
 
-	int i = 0;
-
-	for (i = size / 2 - 1; i >= 0; i--)
+	for (i = (int)size / 2 - 1; i >= 0; i--)
 	{
 		build_max_heap(array, size, i, size);
 	}
-
-	size_t j = 0;
 
 	for (j = size - 1; j > 0; j--)
 	{
