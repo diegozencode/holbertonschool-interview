@@ -30,7 +30,7 @@ void build_max_heap(int *array, size_t size, size_t index)
 
 		array[index] = array[max];
 		array[max] = temp;
-		/*print_array(array, size);*/
+		print_array(array, size);
 		build_max_heap(array, size, max);
 	}
 }
