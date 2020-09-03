@@ -52,18 +52,22 @@ void heap_sort(int *array, size_t size)
 		print_array(array, size);
 	}
 
-	for (int i = size / 2 - 1; i >= 0; i--)
+	int i = 0;
+
+	for (i = size / 2 - 1; i >= 0; i--)
 	{
 		build_max_heap(array, size, i, size);
 	}
 
-	for (size_t i = size - 1; i > 0; i--)
+	size_t j = 0;
+
+	for (j = size - 1; j > 0; j--)
 	{
 		int temp = array[0];
 
-		array[0] = array[i];
-		array[i] = temp;
+		array[0] = array[j];
+		array[j] = temp;
 		print_array(array, size);
-		build_max_heap(array, i, 0, size);
+		build_max_heap(array, j, 0, size);
 	}
 }
