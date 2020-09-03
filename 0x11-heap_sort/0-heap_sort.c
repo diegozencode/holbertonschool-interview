@@ -7,8 +7,9 @@
  * @array: array of integers
  * @size: size of the array
  * @index: position in the array
+ * @lenght: full size of the array
  */
-void build_max_heap(int *array, size_t size, size_t index)
+void build_max_heap(int *array, size_t size, size_t index, size_t lenght)
 {
 	size_t max = index;
 	size_t left_child = (2 * index) + 1;
@@ -30,8 +31,8 @@ void build_max_heap(int *array, size_t size, size_t index)
 
 		array[index] = array[max];
 		array[max] = temp;
-		print_array(array, size);
-		build_max_heap(array, size, max);
+		print_array(array, lenght);
+		build_max_heap(array, size, max, lenght);
 	}
 }
 
@@ -54,7 +55,7 @@ void heap_sort(int *array, size_t size)
 
 	for (int i = size / 2 - 1; i >= 0; i--)
 	{
-		build_max_heap(array, size, i);
+		build_max_heap(array, size, i, size);
 	}
 
 	for (size_t i = size - 1; i > 0; i--)
@@ -64,6 +65,6 @@ void heap_sort(int *array, size_t size)
 		array[0] = array[i];
 		array[i] = temp;
 		print_array(array, size);
-		build_max_heap(array, i, 0);
+		build_max_heap(array, i, 0, size);
 	}
 }
