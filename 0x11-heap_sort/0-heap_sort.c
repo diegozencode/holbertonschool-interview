@@ -52,7 +52,7 @@ void heap_sort(int *array, size_t size)
 
 	if (size < 2)
 	{
-		print_array(array, size);
+		return;
 	}
 
 	for (i = (int)size / 2 - 1; i >= 0; i--)
