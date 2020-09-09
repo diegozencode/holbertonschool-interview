@@ -27,10 +27,12 @@ int advanced_binary(int *array, size_t size, int value)
  */
 int binary_search(int *array, size_t left, size_t right, int value)
 {
+	size_t mid;
+
 	if (left > right)
 		return (-1);
 
-	size_t mid = (left + right) / 2;
+	mid = (left + right) / 2;
 
 	if (value == array[mid])
 	{
