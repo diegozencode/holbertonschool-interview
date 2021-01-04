@@ -1,7 +1,10 @@
 # 0x03. Minimum Operations
 
-## Description
-What you should learn from this project:
+## Description:bulb:
+Interview preparation:
+
+* Python programming language
+* Linear time
 
 ---
 
