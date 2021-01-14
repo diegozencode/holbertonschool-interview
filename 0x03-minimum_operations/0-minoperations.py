@@ -5,14 +5,16 @@ Minimum operations
 
 
 def minOperations(n):
+    """ Calculates the fewest number of operations needed
+    """
     result = 0
-    i = 2
+    op = 2
 
-    while (i <= n):
-        if n % i == 0:
-            result = result + i
-            n = n / i
+    while (op <= n):
+        if n % op == 0:
+            result = result + op
+            n = n / op
         else:
-            i += 1
+            op += 1
 
     return result
