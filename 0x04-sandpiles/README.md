@@ -15,9 +15,10 @@ Read or watch:
 
 ---
 
+## Files:card_file_box:
 ### [0. Sandpiles sum](./0-sandpiles.c)
 
 ---
 
 ## Author
-* **Diego Monroy** - [diegozencode](https://github.com/diegozencode)
+* **Diego Monroy** - [diegozencode](https://github.com/diegozencode) - [twitter:speech_balloon:](https://twitter.com/diegozencode)
