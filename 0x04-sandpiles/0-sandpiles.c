@@ -25,7 +25,7 @@ void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 
 /**
  * sandpiles_test - validate that all grid is 0
- * @grid1: grid 3x3 of integers 
+ * @grid1: grid 3x3 of integers
  * Return: validation 0 for true and 1 for false
  */
 int sandpiles_test(int grid1[3][3])
