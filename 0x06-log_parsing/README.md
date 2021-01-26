@@ -1,14 +1,19 @@
 # 0x06. Log Parsing
 
-## Description
-What you should learn from this project:
+## Description:bulb:
+Interview preparation:
+
+* Logs
+* Python
+* Read stdin line by line
+* Computes metrics
 
 ---
 
+## Files:card_file_box:
 ### [0. Log parsing](./0-stats.py)
-* Write a script that reads stdin line by line and computes metrics:
 
 ---
 
 ## Author
-* **Diego Monroy** - [diegozencode](https://github.com/diegozencode)
+* **Diego Monroy** - [diegozencode](https://github.com/diegozencode) - [twitter:speech_balloon:](https://twitter.com/diegozencode)
