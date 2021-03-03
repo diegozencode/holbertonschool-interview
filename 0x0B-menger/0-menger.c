@@ -42,6 +42,7 @@ void menger(int level)
  * check - check print character
  * @row: row menger
  * @col: col menger
+ * Return: 1 to print the character, 0 to print space
  */
 size_t check(size_t row, size_t col)
 {
