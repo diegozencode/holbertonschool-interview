@@ -20,6 +20,12 @@ Interview preparation:
 
 ---
 
+## Resources:books:
+Read or watch:
+* [Menger sponge](https://en.wikipedia.org/wiki/Menger_sponge)
+
+---
+
 ## Files:card_file_box:
 ### [0. 2D Menger sponge](./0-menger.c)
 
