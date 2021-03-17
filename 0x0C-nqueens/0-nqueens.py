@@ -10,7 +10,7 @@ import sys
 def nqueens(n: int):
     """backtracking
     """
-    matrix = [[0 for x in range(n)] for y in range(n)]
+    matrix = [[0 for x in range(2)] for y in range(n)]
     print(str(matrix))
 
 
