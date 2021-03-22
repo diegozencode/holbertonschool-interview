@@ -6,7 +6,7 @@ Interview preparation:
 
 - C
 - Binary trees
-- AVL
+- AVL (Balanced Binary Tree)
 - Write a function that builds an AVL tree from an array
 
 ## Technologies & Tools:computer:
