@@ -8,13 +8,29 @@
  */
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
+	skiplist_t *express = NULL;
+
 	if (list == NULL || value == 0)
 	{
 		return (NULL);
 	}
 	else
 	{
+		express = list->express;
+		printf("Value checked at index [%lu] = [%d]\n", express->index, express->n);
+
+		while (express && express->n < value)
+		{
+			list = express;
+			express = express->express;
+			if (express == NULL)
+			{
+				break;
+			}
+
+			printf("Value checked at index [%lu] = [%d]\n", express->index, express->n);
+		}
+
 		return (list);
 	}
-
 }
