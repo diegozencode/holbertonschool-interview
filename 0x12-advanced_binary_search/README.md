@@ -1,6 +1,6 @@
 # 0x12. Advanced Binary Search
 
-# Description:bulb:
+## Description:bulb:
 
 Interview preparation:
 
@@ -27,6 +27,8 @@ Interview preparation:
 - GCC 4.8.4 using flags `-Wall` `-Werror` `-Wextra` and `-pedantic`
 
 ---
+
+## Files:card_file_box:
 
 ### [0. Advanced Binary Search](./0-advanced_binary.c)
 
