@@ -26,7 +26,7 @@ Interview preparation:
 
 Read or watch:
 
-- [Reddit API Documentation](https://intranet.hbtn.io/rltoken/PV_GanilbTliu3BSqFKPKA)
+- [Reddit API Documentation](https://www.reddit.com/dev/api/)
 
 ---
 
