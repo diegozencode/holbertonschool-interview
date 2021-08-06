@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include "binary_trees.h"
 
+binary_tree_t *binary_tree_node(binary_tree_t *root, int val);
+
 /**
  * basic_tree - Build a basic binary tree
  *

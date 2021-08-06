@@ -1,4 +1,4 @@
-#include "binary_trees.h";
+#include "binary_trees.h"
 /**
  * binary_tree_is_avl - checks if a tree is a valid AVL tree
  * @tree: pointer to the root node of the tree to check
@@ -15,7 +15,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 }
 
 /**
- * is_avl_tree - checks if a tree is a valid AVL tree
+ * is_avl - checks if a tree is a valid AVL tree
  * @tree: pointer to the root node of the tree to check
  * @min: current minimun value
  * @max: current maximum value
