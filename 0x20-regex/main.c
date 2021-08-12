@@ -7,7 +7,7 @@
 		{\
 			int res = regex_match(s, p);\
 			printf("%s -> %s = %d\n", s, p, res);\
-		}\
+		} \
 	} while (0)
 
 /**
