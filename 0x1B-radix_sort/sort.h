@@ -9,6 +9,6 @@
 
 void print_array(const int *array, size_t size);
 void radix_sort(int *array, size_t size);
-int count_sort(int *array, ssize_t size, int *digit, long exp);
+int count_sort(int *array, ssize_t size, int *arr, long exp);
 
 #endif /* SORT_H */
